@@ -1,0 +1,1866 @@
+{
+ "sections": [
+  {
+   "id": "SEC-01",
+   "name": "New Delhi – Ghaziabad",
+   "from_station": "New Delhi (NDLS)",
+   "to_station": "Ghaziabad (GZB)",
+   "length_km": 25.6,
+   "max_speed_kmph": 130,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "01:00",
+     "end": "04:30"
+    },
+    {
+     "start": "13:00",
+     "end": "14:30"
+    }
+   ],
+   "current_health_score": 82.0
+  },
+  {
+   "id": "SEC-02",
+   "name": "Ghaziabad – Meerut",
+   "from_station": "Ghaziabad (GZB)",
+   "to_station": "Meerut City (MTC)",
+   "length_km": 48.2,
+   "max_speed_kmph": 110,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "00:30",
+     "end": "04:00"
+    },
+    {
+     "start": "11:30",
+     "end": "13:00"
+    }
+   ],
+   "current_health_score": 78.5
+  },
+  {
+   "id": "SEC-03",
+   "name": "Meerut – Aligarh",
+   "from_station": "Meerut City (MTC)",
+   "to_station": "Aligarh Jn (ALJN)",
+   "length_km": 112.4,
+   "max_speed_kmph": 120,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "01:30",
+     "end": "05:00"
+    },
+    {
+     "start": "14:00",
+     "end": "15:30"
+    }
+   ],
+   "current_health_score": 68.0
+  },
+  {
+   "id": "SEC-04",
+   "name": "Aligarh – Tundla",
+   "from_station": "Aligarh Jn (ALJN)",
+   "to_station": "Tundla Jn (TDL)",
+   "length_km": 78.0,
+   "max_speed_kmph": 130,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "01:00",
+     "end": "04:30"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30"
+    }
+   ],
+   "current_health_score": 86.0
+  },
+  {
+   "id": "SEC-05",
+   "name": "Tundla – Kanpur",
+   "from_station": "Tundla Jn (TDL)",
+   "to_station": "Kanpur Central (CNB)",
+   "length_km": 228.0,
+   "max_speed_kmph": 130,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "02:00",
+     "end": "05:30"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00"
+    }
+   ],
+   "current_health_score": 74.0
+  },
+  {
+   "id": "SEC-06",
+   "name": "Kanpur – Etawah",
+   "from_station": "Kanpur Central (CNB)",
+   "to_station": "Etawah Jn (ETW)",
+   "length_km": 139.0,
+   "max_speed_kmph": 130,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "00:45",
+     "end": "04:15"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30"
+    }
+   ],
+   "current_health_score": 89.0
+  },
+  {
+   "id": "SEC-07",
+   "name": "Etawah – Prayagraj",
+   "from_station": "Etawah Jn (ETW)",
+   "to_station": "Prayagraj Jn (PRYJ)",
+   "length_km": 280.0,
+   "max_speed_kmph": 130,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "01:15",
+     "end": "04:45"
+    },
+    {
+     "start": "13:30",
+     "end": "15:00"
+    }
+   ],
+   "current_health_score": 71.5
+  },
+  {
+   "id": "SEC-08",
+   "name": "Prayagraj – Varanasi",
+   "from_station": "Prayagraj Jn (PRYJ)",
+   "to_station": "Varanasi Cantt (BSB)",
+   "length_km": 124.5,
+   "max_speed_kmph": 110,
+   "line_type": "Double Line",
+   "electrified": true,
+   "corridor_category": "High Density Network (HDN-1)",
+   "allowed_maintenance_windows": [
+    {
+     "start": "01:45",
+     "end": "05:15"
+    },
+    {
+     "start": "12:30",
+     "end": "14:00"
+    }
+   ],
+   "current_health_score": 80.0
+  }
+ ],
+ "assets": [
+  {
+   "id": "AST-TRK-01",
+   "name": "Continuous Welded Rail (CWR 60kg)",
+   "section_id": "SEC-01",
+   "section_name": "New Delhi – Ghaziabad",
+   "type": "TRACK",
+   "health_score": 62.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-20",
+   "next_maintenance_due": "2026-09-08",
+   "estimated_duration_hours": 2.5,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 68.5,
+   "operational_impact": "HIGH",
+   "failure_risk": "MEDIUM",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 52.0
+  },
+  {
+   "id": "AST-SIG-02",
+   "name": "Electronic Interlocking (EI) Axle Counter",
+   "section_id": "SEC-01",
+   "section_name": "New Delhi – Ghaziabad",
+   "type": "SIGNAL",
+   "health_score": 88.0,
+   "criticality": "CRITICAL",
+   "last_inspection": "2026-08-30",
+   "next_maintenance_due": "2026-09-25",
+   "estimated_duration_hours": 1.5,
+   "status": "HEALTHY",
+   "risk_score": 58.9,
+   "operational_impact": "HIGH",
+   "failure_risk": "LOW",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 52.0
+  },
+  {
+   "id": "AST-OHE-03",
+   "name": "25kV AC Overhead Catenary & Contact Wire",
+   "section_id": "SEC-02",
+   "section_name": "Ghaziabad – Meerut",
+   "type": "OHE",
+   "health_score": 71.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-15",
+   "next_maintenance_due": "2026-09-09",
+   "estimated_duration_hours": 3.0,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 63.0,
+   "operational_impact": "HIGH",
+   "failure_risk": "MEDIUM",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 38.0
+  },
+  {
+   "id": "AST-PNC-04",
+   "name": "1-in-12 Curved Switch Point & Crossing",
+   "section_id": "SEC-03",
+   "section_name": "Meerut – Aligarh",
+   "type": "POINT & CROSSING",
+   "health_score": 54.0,
+   "criticality": "CRITICAL",
+   "last_inspection": "2026-08-10",
+   "next_maintenance_due": "2026-09-07",
+   "estimated_duration_hours": 3.5,
+   "status": "CRITICAL_ACTION",
+   "risk_score": 79.1,
+   "operational_impact": "HIGH",
+   "failure_risk": "HIGH",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 48.0
+  },
+  {
+   "id": "AST-SIG-05",
+   "name": "Auto Block Signal Relay Rack (AB-44)",
+   "section_id": "SEC-03",
+   "section_name": "Meerut – Aligarh",
+   "type": "SIGNAL",
+   "health_score": 60.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-18",
+   "next_maintenance_due": "2026-09-07",
+   "estimated_duration_hours": 2.0,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 68.5,
+   "operational_impact": "HIGH",
+   "failure_risk": "HIGH",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 48.0
+  },
+  {
+   "id": "AST-BDG-06",
+   "name": "Ganga Canal Steel Girder Bridge #114",
+   "section_id": "SEC-04",
+   "section_name": "Aligarh – Tundla",
+   "type": "BRIDGE",
+   "health_score": 79.0,
+   "criticality": "MEDIUM",
+   "last_inspection": "2026-08-01",
+   "next_maintenance_due": "2026-09-15",
+   "estimated_duration_hours": 4.0,
+   "status": "HEALTHY",
+   "risk_score": 39.9,
+   "operational_impact": "MEDIUM",
+   "failure_risk": "LOW",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 45.0
+  },
+  {
+   "id": "AST-TRK-07",
+   "name": "Deep Screening Track Bed Section Km 342",
+   "section_id": "SEC-05",
+   "section_name": "Tundla – Kanpur",
+   "type": "TRACK",
+   "health_score": 58.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-12",
+   "next_maintenance_due": "2026-09-07",
+   "estimated_duration_hours": 3.0,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 71.2,
+   "operational_impact": "HIGH",
+   "failure_risk": "MEDIUM",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 65.0
+  },
+  {
+   "id": "AST-OHE-08",
+   "name": "Section Insulator & Isolator Unit (TRD)",
+   "section_id": "SEC-05",
+   "section_name": "Tundla – Kanpur",
+   "type": "OHE",
+   "health_score": 64.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-14",
+   "next_maintenance_due": "2026-09-08",
+   "estimated_duration_hours": 2.5,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 69.1,
+   "operational_impact": "HIGH",
+   "failure_risk": "MEDIUM",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 65.0
+  },
+  {
+   "id": "AST-SIG-09",
+   "name": "Solid State Interlocking (SSI) Card Frame",
+   "section_id": "SEC-06",
+   "section_name": "Kanpur – Etawah",
+   "type": "SIGNAL",
+   "health_score": 92.0,
+   "criticality": "CRITICAL",
+   "last_inspection": "2026-08-28",
+   "next_maintenance_due": "2026-09-30",
+   "estimated_duration_hours": 1.5,
+   "status": "HEALTHY",
+   "risk_score": 57.1,
+   "operational_impact": "HIGH",
+   "failure_risk": "LOW",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 50.0
+  },
+  {
+   "id": "AST-TRK-10",
+   "name": "Flash Butt Welded Joint Assessment",
+   "section_id": "SEC-07",
+   "section_name": "Etawah – Prayagraj",
+   "type": "TRACK",
+   "health_score": 66.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-19",
+   "next_maintenance_due": "2026-09-08",
+   "estimated_duration_hours": 2.5,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 68.1,
+   "operational_impact": "HIGH",
+   "failure_risk": "MEDIUM",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 58.0
+  },
+  {
+   "id": "AST-OHE-11",
+   "name": "Auto-Tensioning Device (ATD) Pulley Set",
+   "section_id": "SEC-07",
+   "section_name": "Etawah – Prayagraj",
+   "type": "OHE",
+   "health_score": 52.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-08",
+   "next_maintenance_due": "2026-09-07",
+   "estimated_duration_hours": 3.0,
+   "status": "CRITICAL_ACTION",
+   "risk_score": 76.5,
+   "operational_impact": "HIGH",
+   "failure_risk": "HIGH",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 58.0
+  },
+  {
+   "id": "AST-BDG-12",
+   "name": "Yamuna Rail Bridge #80 Expansion Joints",
+   "section_id": "SEC-07",
+   "section_name": "Etawah – Prayagraj",
+   "type": "BRIDGE",
+   "health_score": 69.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-11",
+   "next_maintenance_due": "2026-09-10",
+   "estimated_duration_hours": 3.5,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 67.0,
+   "operational_impact": "HIGH",
+   "failure_risk": "MEDIUM",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 58.0
+  },
+  {
+   "id": "AST-PNC-13",
+   "name": "Diamond Crossing #22 with Slip Points",
+   "section_id": "SEC-08",
+   "section_name": "Prayagraj – Varanasi",
+   "type": "POINT & CROSSING",
+   "health_score": 75.0,
+   "criticality": "MEDIUM",
+   "last_inspection": "2026-08-22",
+   "next_maintenance_due": "2026-09-18",
+   "estimated_duration_hours": 2.0,
+   "status": "HEALTHY",
+   "risk_score": 39.1,
+   "operational_impact": "MEDIUM",
+   "failure_risk": "LOW",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 32.0
+  },
+  {
+   "id": "AST-SIG-14",
+   "name": "Digital Axle Counter Evaluation (DAC)",
+   "section_id": "SEC-08",
+   "section_name": "Prayagraj – Varanasi",
+   "type": "SIGNAL",
+   "health_score": 67.0,
+   "criticality": "HIGH",
+   "last_inspection": "2026-08-17",
+   "next_maintenance_due": "2026-09-09",
+   "estimated_duration_hours": 2.0,
+   "status": "ATTENTION_REQUIRED",
+   "risk_score": 63.4,
+   "operational_impact": "HIGH",
+   "failure_risk": "MEDIUM",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 32.0
+  },
+  {
+   "id": "AST-TRK-15",
+   "name": "Tamping Machine Corridor Run Km 710",
+   "section_id": "SEC-08",
+   "section_name": "Prayagraj – Varanasi",
+   "type": "TRACK",
+   "health_score": 81.0,
+   "criticality": "MEDIUM",
+   "last_inspection": "2026-08-26",
+   "next_maintenance_due": "2026-09-22",
+   "estimated_duration_hours": 2.5,
+   "status": "HEALTHY",
+   "risk_score": 37.0,
+   "operational_impact": "MEDIUM",
+   "failure_risk": "LOW",
+   "degradation_rate_per_month": 2.5,
+   "tonnage_gmt": 32.0
+  }
+ ],
+ "requests": [
+  {
+   "id": "MR-1041",
+   "asset_id": "AST-TRK-01",
+   "asset_name": "Track Rail Tamping & De-stressing",
+   "section_id": "SEC-01",
+   "section_name": "New Delhi – Ghaziabad",
+   "department": "Engineering",
+   "priority": "HIGH",
+   "duration_minutes": 150,
+   "preferred_window": "01:30 – 04:00",
+   "preferred_start_minute": 90,
+   "deadline_date": "2026-09-08",
+   "assigned_crew": "CREW-ENG-A",
+   "status": "PENDING",
+   "description": "High-tonnage rail de-stressing and ultrasonic flaw inspection post-monsoon.",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": true,
+   "power_block_required": false,
+   "traffic_block_required": true,
+   "line": "DN"
+  },
+  {
+   "id": "MR-1042",
+   "asset_id": "AST-SIG-05",
+   "asset_name": "Auto Block Signal Relay Rack (AB-44)",
+   "section_id": "SEC-03",
+   "section_name": "Meerut – Aligarh",
+   "department": "S&T",
+   "priority": "HIGH",
+   "duration_minutes": 120,
+   "preferred_window": "02:00 – 04:00",
+   "preferred_start_minute": 120,
+   "deadline_date": "2026-09-07",
+   "assigned_crew": "CREW-SNT-A",
+   "status": "PENDING",
+   "description": "Intermittent relay impedance drop detected during nocturnal cycle.",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": false,
+   "power_block_required": false,
+   "traffic_block_required": true,
+   "line": "DN"
+  },
+  {
+   "id": "MR-1043",
+   "asset_id": "AST-PNC-04",
+   "asset_name": "Curved Switch Point & Crossing Overhaul",
+   "section_id": "SEC-03",
+   "section_name": "Meerut – Aligarh",
+   "department": "Engineering",
+   "priority": "EMERGENCY",
+   "duration_minutes": 210,
+   "preferred_window": "01:45 – 05:15",
+   "preferred_start_minute": 105,
+   "deadline_date": "2026-09-07",
+   "assigned_crew": "CREW-ENG-B",
+   "status": "PENDING",
+   "description": "Critical tongue rail wear exceeding safety threshold (4.8mm vs 5.0mm max).",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": true,
+   "power_block_required": false,
+   "traffic_block_required": true,
+   "line": "DN"
+  },
+  {
+   "id": "MR-1044",
+   "asset_id": "AST-OHE-03",
+   "asset_name": "Catenary Contact Wire Stagger Adjustment",
+   "section_id": "SEC-02",
+   "section_name": "Ghaziabad – Meerut",
+   "department": "TRD/OHE",
+   "priority": "HIGH",
+   "duration_minutes": 180,
+   "preferred_window": "01:00 – 04:00",
+   "preferred_start_minute": 60,
+   "deadline_date": "2026-09-09",
+   "assigned_crew": "CREW-TRD-A",
+   "status": "PENDING",
+   "description": "Periodic contact wire thickness verification and dropper tension tuning.",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": false,
+   "power_block_required": true,
+   "traffic_block_required": true,
+   "line": "UP"
+  },
+  {
+   "id": "MR-1045",
+   "asset_id": "AST-TRK-07",
+   "asset_name": "Deep Ballast Screening & Shoulder Cleaning",
+   "section_id": "SEC-05",
+   "section_name": "Tundla – Kanpur",
+   "department": "Engineering",
+   "priority": "HIGH",
+   "duration_minutes": 180,
+   "preferred_window": "02:15 – 05:15",
+   "preferred_start_minute": 135,
+   "deadline_date": "2026-09-07",
+   "assigned_crew": "CREW-ENG-A",
+   "status": "PENDING",
+   "description": "Clogging in ballast pocket causing drainage retention near Km 342.",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": true,
+   "power_block_required": false,
+   "traffic_block_required": true,
+   "line": "DN"
+  },
+  {
+   "id": "MR-1046",
+   "asset_id": "AST-OHE-08",
+   "asset_name": "Section Insulator & Isolator Unit (TRD)",
+   "section_id": "SEC-05",
+   "section_name": "Tundla – Kanpur",
+   "department": "TRD/OHE",
+   "priority": "MEDIUM",
+   "duration_minutes": 150,
+   "preferred_window": "02:30 – 05:00",
+   "preferred_start_minute": 150,
+   "deadline_date": "2026-09-08",
+   "assigned_crew": "CREW-TRD-A",
+   "status": "PENDING",
+   "description": "Corona ring thermal inspection and ceramic insulator wipe-down.",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": false,
+   "power_block_required": true,
+   "traffic_block_required": true,
+   "line": "DN"
+  },
+  {
+   "id": "MR-1047",
+   "asset_id": "AST-OHE-11",
+   "asset_name": "Auto-Tensioning Device (ATD) Pulley Set",
+   "section_id": "SEC-07",
+   "section_name": "Etawah – Prayagraj",
+   "department": "TRD/OHE",
+   "priority": "EMERGENCY",
+   "duration_minutes": 180,
+   "preferred_window": "01:30 – 04:30",
+   "preferred_start_minute": 90,
+   "deadline_date": "2026-09-07",
+   "assigned_crew": "CREW-TRD-B",
+   "status": "PENDING",
+   "description": "Stuck counterweight compensation lever observed during dynamic pantograph recording.",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": false,
+   "power_block_required": true,
+   "traffic_block_required": true,
+   "line": "UP"
+  },
+  {
+   "id": "MR-1048",
+   "asset_id": "AST-SIG-14",
+   "asset_name": "Digital Axle Counter Evaluation (DAC)",
+   "section_id": "SEC-08",
+   "section_name": "Prayagraj – Varanasi",
+   "department": "S&T",
+   "priority": "HIGH",
+   "duration_minutes": 120,
+   "preferred_window": "02:00 – 04:00",
+   "preferred_start_minute": 120,
+   "deadline_date": "2026-09-09",
+   "assigned_crew": "CREW-SNT-B",
+   "status": "PENDING",
+   "description": "Phase shift error detection on downstream wheel sensor channel 2.",
+   "safety_buffer_minutes": 15,
+   "track_possession_required": false,
+   "power_block_required": false,
+   "traffic_block_required": true,
+   "line": "DN"
+  }
+ ],
+ "trains": [
+  {
+   "id": "TR-101",
+   "train_number": "IR-22436",
+   "name": "Vande Bharat Express (NDLS-BSB)",
+   "type": "Vande Bharat",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Varanasi (BSB)",
+   "departure_time": "06:00",
+   "arrival_time": "14:00",
+   "priority": 1,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-02",
+    "SEC-03",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07",
+    "SEC-08"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 360,
+     "exit_minute": 380,
+     "entry_time": "06:00",
+     "exit_time": "06:20"
+    },
+    {
+     "section_id": "SEC-02",
+     "entry_minute": 380,
+     "exit_minute": 415,
+     "entry_time": "06:20",
+     "exit_time": "06:55"
+    },
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 415,
+     "exit_minute": 490,
+     "entry_time": "06:55",
+     "exit_time": "08:10"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 490,
+     "exit_minute": 540,
+     "entry_time": "08:10",
+     "exit_time": "09:00"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 540,
+     "exit_minute": 680,
+     "entry_time": "09:00",
+     "exit_time": "11:20"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 680,
+     "exit_minute": 760,
+     "entry_time": "11:20",
+     "exit_time": "12:40"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 760,
+     "exit_minute": 910,
+     "entry_time": "12:40",
+     "exit_time": "15:10"
+    },
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 910,
+     "exit_minute": 980,
+     "entry_time": "15:10",
+     "exit_time": "16:20"
+    }
+   ]
+  },
+  {
+   "id": "TR-102",
+   "train_number": "IR-12302",
+   "name": "Howrah Rajdhani Express",
+   "type": "Rajdhani Express",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Howrah (via CNB/PRYJ)",
+   "departure_time": "16:50",
+   "arrival_time": "09:55",
+   "priority": 1,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 1010,
+     "exit_minute": 1030,
+     "entry_time": "16:50",
+     "exit_time": "17:10"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 1030,
+     "exit_minute": 1100,
+     "entry_time": "17:10",
+     "exit_time": "18:20"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 1100,
+     "exit_minute": 1260,
+     "entry_time": "18:20",
+     "exit_time": "21:00"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 1260,
+     "exit_minute": 1345,
+     "entry_time": "21:00",
+     "exit_time": "22:25"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 1345,
+     "exit_minute": 1439,
+     "entry_time": "22:25",
+     "exit_time": "23:59"
+    }
+   ]
+  },
+  {
+   "id": "TR-103",
+   "train_number": "IR-12418",
+   "name": "Prayagraj Express",
+   "type": "Superfast Mail/Exp",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Prayagraj (PRYJ)",
+   "departure_time": "22:10",
+   "arrival_time": "07:00",
+   "priority": 2,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-03",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 1330,
+     "exit_minute": 1360,
+     "entry_time": "22:10",
+     "exit_time": "22:40"
+    },
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 1360,
+     "exit_minute": 1435,
+     "entry_time": "22:40",
+     "exit_time": "23:55"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 0,
+     "exit_minute": 60,
+     "entry_time": "00:00",
+     "exit_time": "01:00"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 60,
+     "exit_minute": 220,
+     "entry_time": "01:00",
+     "exit_time": "03:40"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 220,
+     "exit_minute": 310,
+     "entry_time": "03:40",
+     "exit_time": "05:10"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 310,
+     "exit_minute": 420,
+     "entry_time": "05:10",
+     "exit_time": "07:00"
+    }
+   ]
+  },
+  {
+   "id": "TR-104",
+   "train_number": "IR-12560",
+   "name": "Shiv Ganga Superfast Express",
+   "type": "Superfast Mail/Exp",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Varanasi (BSB)",
+   "departure_time": "20:05",
+   "arrival_time": "06:10",
+   "priority": 2,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-03",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07",
+    "SEC-08"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 1205,
+     "exit_minute": 1235,
+     "entry_time": "20:05",
+     "exit_time": "20:35"
+    },
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 1235,
+     "exit_minute": 1320,
+     "entry_time": "20:35",
+     "exit_time": "22:00"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 1320,
+     "exit_minute": 1439,
+     "entry_time": "22:00",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 0,
+     "exit_minute": 85,
+     "entry_time": "00:00",
+     "exit_time": "01:25"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 85,
+     "exit_minute": 240,
+     "entry_time": "01:25",
+     "exit_time": "04:00"
+    },
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 240,
+     "exit_minute": 370,
+     "entry_time": "04:00",
+     "exit_time": "06:10"
+    }
+   ]
+  },
+  {
+   "id": "TR-105",
+   "train_number": "IR-12004",
+   "name": "Lucknow Swarna Shatabdi",
+   "type": "Shatabdi Express",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Kanpur / Lucknow",
+   "departure_time": "06:10",
+   "arrival_time": "12:40",
+   "priority": 2,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-04",
+    "SEC-05"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 370,
+     "exit_minute": 395,
+     "entry_time": "06:10",
+     "exit_time": "06:35"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 395,
+     "exit_minute": 465,
+     "entry_time": "06:35",
+     "exit_time": "07:45"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 465,
+     "exit_minute": 615,
+     "entry_time": "07:45",
+     "exit_time": "10:15"
+    }
+   ]
+  },
+  {
+   "id": "TR-106",
+   "train_number": "IR-14218",
+   "name": "Unchahar Express",
+   "type": "Superfast Mail/Exp",
+   "origin": "Chandigarh / Delhi",
+   "destination": "Prayagraj (PRYJ)",
+   "departure_time": "21:30",
+   "arrival_time": "11:15",
+   "priority": 3,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-02",
+    "SEC-03",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 1290,
+     "exit_minute": 1320,
+     "entry_time": "21:30",
+     "exit_time": "22:00"
+    },
+    {
+     "section_id": "SEC-02",
+     "entry_minute": 1320,
+     "exit_minute": 1370,
+     "entry_time": "22:00",
+     "exit_time": "22:50"
+    },
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 1370,
+     "exit_minute": 1439,
+     "entry_time": "22:50",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 0,
+     "exit_minute": 75,
+     "entry_time": "00:00",
+     "exit_time": "01:15"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 75,
+     "exit_minute": 270,
+     "entry_time": "01:15",
+     "exit_time": "04:30"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 270,
+     "exit_minute": 390,
+     "entry_time": "04:30",
+     "exit_time": "06:30"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 390,
+     "exit_minute": 560,
+     "entry_time": "06:30",
+     "exit_time": "09:20"
+    }
+   ]
+  },
+  {
+   "id": "TR-107",
+   "train_number": "IR-04404",
+   "name": "Delhi–Meerut Shuttle Express",
+   "type": "Passenger Local",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Meerut City (MTC)",
+   "departure_time": "05:15",
+   "arrival_time": "07:10",
+   "priority": 4,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-02"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 315,
+     "exit_minute": 355,
+     "entry_time": "05:15",
+     "exit_time": "05:55"
+    },
+    {
+     "section_id": "SEC-02",
+     "entry_minute": 355,
+     "exit_minute": 430,
+     "entry_time": "05:55",
+     "exit_time": "07:10"
+    }
+   ]
+  },
+  {
+   "id": "TR-108",
+   "train_number": "IR-04142",
+   "name": "Kanpur–Etawah Passenger Local",
+   "type": "Passenger Local",
+   "origin": "Kanpur Central (CNB)",
+   "destination": "Etawah Jn (ETW)",
+   "departure_time": "02:15",
+   "arrival_time": "05:00",
+   "priority": 4,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-06"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 135,
+     "exit_minute": 300,
+     "entry_time": "02:15",
+     "exit_time": "05:00"
+    }
+   ]
+  },
+  {
+   "id": "TR-109",
+   "train_number": "IR-CONTR-01",
+   "name": "DFCCIL Container Cargo (Dadri-Varanasi)",
+   "type": "Freight / Container",
+   "origin": "Dadri Freight Hub",
+   "destination": "Mughalsarai / DDU",
+   "departure_time": "01:00",
+   "arrival_time": "10:30",
+   "priority": 5,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-02",
+    "SEC-03",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07",
+    "SEC-08"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-02",
+     "entry_minute": 60,
+     "exit_minute": 130,
+     "entry_time": "01:00",
+     "exit_time": "02:10"
+    },
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 130,
+     "exit_minute": 270,
+     "entry_time": "02:10",
+     "exit_time": "04:30"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 270,
+     "exit_minute": 360,
+     "entry_time": "04:30",
+     "exit_time": "06:00"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 360,
+     "exit_minute": 540,
+     "entry_time": "06:00",
+     "exit_time": "09:00"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 540,
+     "exit_minute": 650,
+     "entry_time": "09:00",
+     "exit_time": "10:50"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 650,
+     "exit_minute": 820,
+     "entry_time": "10:50",
+     "exit_time": "13:40"
+    },
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 820,
+     "exit_minute": 930,
+     "entry_time": "13:40",
+     "exit_time": "15:30"
+    }
+   ]
+  },
+  {
+   "id": "TR-110",
+   "train_number": "IR-COAL-04",
+   "name": "NTPC Thermal Coal Bulk Freight",
+   "type": "Freight / Container",
+   "origin": "Varanasi Area",
+   "destination": "Dadri Power Plant",
+   "departure_time": "00:30",
+   "arrival_time": "11:45",
+   "priority": 5,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-08",
+    "SEC-07",
+    "SEC-06",
+    "SEC-05",
+    "SEC-04",
+    "SEC-01"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 30,
+     "exit_minute": 150,
+     "entry_time": "00:30",
+     "exit_time": "02:30"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 150,
+     "exit_minute": 350,
+     "entry_time": "02:30",
+     "exit_time": "05:50"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 350,
+     "exit_minute": 470,
+     "entry_time": "05:50",
+     "exit_time": "07:50"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 470,
+     "exit_minute": 650,
+     "entry_time": "07:50",
+     "exit_time": "10:50"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 650,
+     "exit_minute": 740,
+     "entry_time": "10:50",
+     "exit_time": "12:20"
+    },
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 740,
+     "exit_minute": 790,
+     "entry_time": "12:20",
+     "exit_time": "13:10"
+    }
+   ]
+  },
+  {
+   "id": "TR-111",
+   "train_number": "IR-12582",
+   "name": "BSB–NDLS Superfast Express",
+   "type": "Superfast Mail/Exp",
+   "origin": "Varanasi (BSB)",
+   "destination": "New Delhi (NDLS)",
+   "departure_time": "23:10",
+   "arrival_time": "11:20",
+   "priority": 2,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-08",
+    "SEC-07",
+    "SEC-06",
+    "SEC-05",
+    "SEC-04",
+    "SEC-01"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 1390,
+     "exit_minute": 1439,
+     "entry_time": "23:10",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 0,
+     "exit_minute": 180,
+     "entry_time": "00:00",
+     "exit_time": "03:00"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 180,
+     "exit_minute": 280,
+     "entry_time": "03:00",
+     "exit_time": "04:40"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 280,
+     "exit_minute": 440,
+     "entry_time": "04:40",
+     "exit_time": "07:20"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 440,
+     "exit_minute": 520,
+     "entry_time": "07:20",
+     "exit_time": "08:40"
+    },
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 520,
+     "exit_minute": 560,
+     "entry_time": "08:40",
+     "exit_time": "09:20"
+    }
+   ]
+  },
+  {
+   "id": "TR-112",
+   "train_number": "IR-20801",
+   "name": "Magadh Express",
+   "type": "Superfast Mail/Exp",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Islampur (via CNB/PRYJ)",
+   "departure_time": "21:05",
+   "arrival_time": "11:40",
+   "priority": 3,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 1265,
+     "exit_minute": 1295,
+     "entry_time": "21:05",
+     "exit_time": "21:35"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 1295,
+     "exit_minute": 1365,
+     "entry_time": "21:35",
+     "exit_time": "22:45"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 1365,
+     "exit_minute": 1439,
+     "entry_time": "22:45",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 30,
+     "exit_minute": 160,
+     "entry_time": "00:30",
+     "exit_time": "02:40"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 160,
+     "exit_minute": 360,
+     "entry_time": "02:40",
+     "exit_time": "06:00"
+    }
+   ]
+  },
+  {
+   "id": "TR-113",
+   "train_number": "IR-12398",
+   "name": "Mahabodhi Superfast Express",
+   "type": "Superfast Mail/Exp",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Gaya Jn",
+   "departure_time": "12:50",
+   "arrival_time": "03:00",
+   "priority": 3,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 770,
+     "exit_minute": 800,
+     "entry_time": "12:50",
+     "exit_time": "13:20"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 800,
+     "exit_minute": 870,
+     "entry_time": "13:20",
+     "exit_time": "14:30"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 870,
+     "exit_minute": 1040,
+     "entry_time": "14:30",
+     "exit_time": "17:20"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 1040,
+     "exit_minute": 1130,
+     "entry_time": "17:20",
+     "exit_time": "18:50"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 1130,
+     "exit_minute": 1300,
+     "entry_time": "18:50",
+     "exit_time": "21:40"
+    }
+   ]
+  },
+  {
+   "id": "TR-114",
+   "train_number": "IR-12276",
+   "name": "Prayagraj Humsafar Express",
+   "type": "Superfast Mail/Exp",
+   "origin": "New Delhi (NDLS)",
+   "destination": "Prayagraj (PRYJ)",
+   "departure_time": "22:30",
+   "arrival_time": "06:20",
+   "priority": 2,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-01",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 1350,
+     "exit_minute": 1380,
+     "entry_time": "22:30",
+     "exit_time": "23:00"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 1380,
+     "exit_minute": 1439,
+     "entry_time": "23:00",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 0,
+     "exit_minute": 160,
+     "entry_time": "00:00",
+     "exit_time": "02:40"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 160,
+     "exit_minute": 260,
+     "entry_time": "02:40",
+     "exit_time": "04:20"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 260,
+     "exit_minute": 380,
+     "entry_time": "04:20",
+     "exit_time": "06:20"
+    }
+   ]
+  },
+  {
+   "id": "TR-115",
+   "train_number": "IR-14164",
+   "name": "Sangam Express",
+   "type": "Passenger Local",
+   "origin": "Meerut City (MTC)",
+   "destination": "Prayagraj (PRYJ)",
+   "departure_time": "19:00",
+   "arrival_time": "08:30",
+   "priority": 4,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-03",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 1140,
+     "exit_minute": 1260,
+     "entry_time": "19:00",
+     "exit_time": "21:00"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 1260,
+     "exit_minute": 1350,
+     "entry_time": "21:00",
+     "exit_time": "22:30"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 1350,
+     "exit_minute": 1439,
+     "entry_time": "22:30",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 50,
+     "exit_minute": 220,
+     "entry_time": "00:50",
+     "exit_time": "03:40"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 220,
+     "exit_minute": 460,
+     "entry_time": "03:40",
+     "exit_time": "07:40"
+    }
+   ]
+  },
+  {
+   "id": "TR-116",
+   "train_number": "IR-12402",
+   "name": "Magadh Express (Up Line)",
+   "type": "Superfast Mail/Exp",
+   "origin": "Islampur",
+   "destination": "New Delhi (NDLS)",
+   "departure_time": "16:30",
+   "arrival_time": "07:35",
+   "priority": 3,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-07",
+    "SEC-06",
+    "SEC-05",
+    "SEC-04",
+    "SEC-01"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 1380,
+     "exit_minute": 1439,
+     "entry_time": "23:00",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 0,
+     "exit_minute": 90,
+     "entry_time": "00:00",
+     "exit_time": "01:30"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 90,
+     "exit_minute": 260,
+     "entry_time": "01:30",
+     "exit_time": "04:20"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 260,
+     "exit_minute": 340,
+     "entry_time": "04:20",
+     "exit_time": "05:40"
+    },
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 340,
+     "exit_minute": 380,
+     "entry_time": "05:40",
+     "exit_time": "06:20"
+    }
+   ]
+  },
+  {
+   "id": "TR-117",
+   "train_number": "IR-22435",
+   "name": "Vande Bharat Express (BSB-NDLS)",
+   "type": "Vande Bharat",
+   "origin": "Varanasi (BSB)",
+   "destination": "New Delhi (NDLS)",
+   "departure_time": "15:00",
+   "arrival_time": "23:00",
+   "priority": 1,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-08",
+    "SEC-07",
+    "SEC-06",
+    "SEC-05",
+    "SEC-04",
+    "SEC-01"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 900,
+     "exit_minute": 970,
+     "entry_time": "15:00",
+     "exit_time": "16:10"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 970,
+     "exit_minute": 1120,
+     "entry_time": "16:10",
+     "exit_time": "18:40"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 1120,
+     "exit_minute": 1200,
+     "entry_time": "18:40",
+     "exit_time": "20:00"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 1200,
+     "exit_minute": 1320,
+     "entry_time": "20:00",
+     "exit_time": "22:00"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 1320,
+     "exit_minute": 1360,
+     "entry_time": "22:00",
+     "exit_time": "22:40"
+    },
+    {
+     "section_id": "SEC-01",
+     "entry_minute": 1360,
+     "exit_minute": 1380,
+     "entry_time": "22:40",
+     "exit_time": "23:00"
+    }
+   ]
+  },
+  {
+   "id": "TR-118",
+   "train_number": "IR-AUTO-02",
+   "name": "Automobile Carrier Special Freight",
+   "type": "Freight / Container",
+   "origin": "Maruti Hub (GZB)",
+   "destination": "Varanasi Yard",
+   "departure_time": "02:00",
+   "arrival_time": "12:00",
+   "priority": 5,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-03",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07",
+    "SEC-08"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 120,
+     "exit_minute": 240,
+     "entry_time": "02:00",
+     "exit_time": "04:00"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 240,
+     "exit_minute": 320,
+     "entry_time": "04:00",
+     "exit_time": "05:20"
+    },
+    {
+     "section_id": "SEC-05",
+     "entry_minute": 320,
+     "exit_minute": 490,
+     "entry_time": "05:20",
+     "exit_time": "08:10"
+    },
+    {
+     "section_id": "SEC-06",
+     "entry_minute": 490,
+     "exit_minute": 590,
+     "entry_time": "08:10",
+     "exit_time": "09:50"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 590,
+     "exit_minute": 750,
+     "entry_time": "09:50",
+     "exit_time": "12:30"
+    },
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 750,
+     "exit_minute": 850,
+     "entry_time": "12:30",
+     "exit_time": "14:10"
+    }
+   ]
+  },
+  {
+   "id": "TR-119",
+   "train_number": "IR-14266",
+   "name": "Dehradun–Varanasi Janta Express",
+   "type": "Passenger Local",
+   "origin": "Dehradun",
+   "destination": "Varanasi (BSB)",
+   "departure_time": "18:15",
+   "arrival_time": "12:30",
+   "priority": 4,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-02",
+    "SEC-03",
+    "SEC-04",
+    "SEC-07",
+    "SEC-08"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-02",
+     "entry_minute": 1310,
+     "exit_minute": 1380,
+     "entry_time": "21:50",
+     "exit_time": "23:00"
+    },
+    {
+     "section_id": "SEC-03",
+     "entry_minute": 1380,
+     "exit_minute": 1439,
+     "entry_time": "23:00",
+     "exit_time": "23:59"
+    },
+    {
+     "section_id": "SEC-04",
+     "entry_minute": 0,
+     "exit_minute": 80,
+     "entry_time": "00:00",
+     "exit_time": "01:20"
+    },
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 200,
+     "exit_minute": 420,
+     "entry_time": "03:20",
+     "exit_time": "07:00"
+    },
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 420,
+     "exit_minute": 540,
+     "entry_time": "07:00",
+     "exit_time": "09:00"
+    }
+   ]
+  },
+  {
+   "id": "TR-120",
+   "train_number": "IR-04288",
+   "name": "Kanpur–Varanasi MEMU Special",
+   "type": "Passenger Local",
+   "origin": "Kanpur Central (CNB)",
+   "destination": "Varanasi (BSB)",
+   "departure_time": "05:00",
+   "arrival_time": "10:45",
+   "priority": 4,
+   "status": "ON_TIME",
+   "affected_by_block": false,
+   "delay_minutes": 0,
+   "route_sections": [
+    "SEC-07",
+    "SEC-08"
+   ],
+   "movements": [
+    {
+     "section_id": "SEC-07",
+     "entry_minute": 300,
+     "exit_minute": 480,
+     "entry_time": "05:00",
+     "exit_time": "08:00"
+    },
+    {
+     "section_id": "SEC-08",
+     "entry_minute": 480,
+     "exit_minute": 645,
+     "entry_time": "08:00",
+     "exit_time": "10:45"
+    }
+   ]
+  }
+ ],
+ "crews": [
+  {
+   "id": "CREW-ENG-A",
+   "name": "Permanent Way Gang Alpha (Engg)",
+   "department": "Engineering",
+   "base_station": "Ghaziabad (GZB)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  },
+  {
+   "id": "CREW-ENG-B",
+   "name": "Permanent Way Gang Beta (Engg)",
+   "department": "Engineering",
+   "base_station": "Kanpur Central (CNB)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  },
+  {
+   "id": "CREW-SNT-A",
+   "name": "Signalling & Telecom Tech-1 (S&T)",
+   "department": "S&T",
+   "base_station": "Aligarh Jn (ALJN)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  },
+  {
+   "id": "CREW-SNT-B",
+   "name": "Signalling & Telecom Tech-2 (S&T)",
+   "department": "S&T",
+   "base_station": "Prayagraj Jn (PRYJ)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  },
+  {
+   "id": "CREW-TRD-A",
+   "name": "Traction Distribution Tower Wagon 1 (TRD)",
+   "department": "TRD/OHE",
+   "base_station": "Ghaziabad (GZB)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  },
+  {
+   "id": "CREW-TRD-B",
+   "name": "Traction Distribution Tower Wagon 2 (TRD)",
+   "department": "TRD/OHE",
+   "base_station": "Etawah Jn (ETW)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  },
+  {
+   "id": "CREW-ENG-C",
+   "name": "Permanent Way Gang Charlie (Engg)",
+   "department": "Engineering",
+   "base_station": "Tundla Jn (TDL)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  },
+  {
+   "id": "CREW-TRD-C",
+   "name": "Traction Distribution Tower Wagon 3 (TRD)",
+   "department": "TRD/OHE",
+   "base_station": "Kanpur Central (CNB)",
+   "max_shift_hours": 8.0,
+   "is_available": true,
+   "active_assignments": []
+  }
+ ]
+}
